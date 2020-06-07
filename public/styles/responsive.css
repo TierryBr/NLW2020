@@ -1,0 +1,83 @@
+@media (max-width: 900px){
+    #page-home {
+        background-position-x: 70vh;
+    }
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+    #page-home header a{
+        position: absolute;
+        bottom: 15px;
+        
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #page-home main{
+        align-items: center;
+    }
+
+    /* pagina de coletas */
+    #page-search-result .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-result .cards img {
+        height: 200px;
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+}
+
+
+
+/* Responsividade da imagem de fundo para varios tamanho de tela */
+@media (min-width: 1700px){
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 760px){
+    #page-home {
+        background-position-y: 200px;
+    }
+}
+
+@media (max-width: 770px){
+    #page-home {
+        background-position-x: 430px;
+    }
+}
+
+@media (min-width: 785px){
+    #page-home {
+        background-position-x: 480px;
+    }
+}
+
+
+/* Resposividade do Cadastre um ponto de coleta para varios tamanho de tela */
+@media (max-width: 562px){
+    #page-home header a{
+        bottom: -20px;
+    }
+}
+
+@media (max-width: 480px){
+    #page-home header a{
+        bottom: -65px;
+    }
+}
+
+@media (max-width: 416px){
+    #page-home header a{
+        bottom: -85px;
+    }
+}
